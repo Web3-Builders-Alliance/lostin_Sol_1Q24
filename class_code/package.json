@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/spl-token": "^0.4.0"
+  },
+  "name": "class_code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
