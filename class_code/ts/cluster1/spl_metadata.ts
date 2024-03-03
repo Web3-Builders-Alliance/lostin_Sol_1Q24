@@ -51,14 +51,6 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
             collectionDetails: null
         }
 
-        // let tx = updateMetadataAccountV2(
-        //     umi,
-        //     {
-        //         ...accounts,
-        //         ...args
-        //     }
-        // )
-
         let tx = createMetadataAccountV3(
             umi,
             {
